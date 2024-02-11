@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheets.css">
+    <script src="javascript.js" defer></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="left-container">
+            <img src="resources/bmw-car-tall.jpg" alt="m3" class="car-img">
+            <div id="floating-container">
+
+                <p class="lsd-icon-text">L S D</p>
+            </div>
+            <div class="lsd-icon-container">
+                <img src="resources/lsd-logo.webp" alt="lsd" class="lsd-icon">
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="right-sections intro">
+                <p class="intros">
+                    This is the real deal. You know you nee something like this in your life to help you realize your deepest dreams
+                    Sign up <strong>now!</strong>
+                </p>
+                <p class="intros-gap"></p>
+                <p class="intros-signup">Sign up NOW!</p>
+            </div>
+            <div class="right-sections middle">
+                <form id="mainform">
+                    <fieldset class="form">
+                        <div class="mainform-sect-1">
+                            <legend>Let's do this</legend>
+                        </div>
+                        <div class="mainform-sect-2">
+
+                            <div class="formrow">
+                                <div class="formcol">
+                                    <label for="fname">FIRST NAME</label>
+                                    <input type="text" name="fname" id="fname" required>
+                                    <span></span>
+                                </div>
+                                <div class="formcol">
+                                    <label for="lname">LAST NAME</label>
+                                    <input type="text" name="lname" id="lname" required>
+                                    <span></span>
+                                </div>
+
+    
+    
+                            </div>
+                            <div class="formrow">
+                                <div class="formcol">
+                                    <label for="email">E-MAIL</label>
+                                    <input type="email" name="email" id="email" required>
+                                    <span></span>
+                                </div>
+                                <div class="formcol">
+                                    <label for="phnum">PHONE NUMBER</label>
+                                    <input type="tel" id="phnum" name="phnum" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                                    <span></span>
+                                </div>
+    
+                            </div>
+                            <div class="formrow">
+
+                                <div class="formcol">
+                                    <label for="password">PASSWORD</label>
+                                    <input type="password" id="password" name="password" required>
+                                    <span></span>
+                                </div>
+                                <div class="formcol">
+                                    <label for="confirmpass">CONFIRM PASSWORD</label>
+                                    <input type="text" id="confirmpass" name="confirmpass">
+                                    <span></span>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+
+                    </fieldset>
+                </form>
+            </div>
+            <div class="right-sections last">
+                <button type="submit" form="mainform">Create Account</button>
+                <p class="acc-exists">Already have an account? <a href="">Log In</a> </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
